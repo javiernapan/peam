@@ -1,0 +1,159 @@
+db.peam.insertMany([
+    {
+    "_id":"P001",
+    "continente":"América del Sur",
+    "Paises":[
+    {
+        "nombre":"Argentina",
+        "moneda":"Peso Argentino",
+        "regiones":[
+        {
+            "nombre":"Región I",
+            "poblacion":12300
+        },
+        {
+            "nombre":"Región II",
+            "poblacion":10800
+        },
+        {
+            "nombre":"Región III",
+            "poblacion":22300
+        },
+        {
+            "nombre":"Región IV",
+            "poblacion":13300
+        }]
+    },
+    {
+        "nombre":"Brasil",
+        "moneda":"Real",
+        "regiones":[
+        {
+            "nombre":"Región I",
+            "poblacion":34300
+        },
+        {
+            "nombre":"Región II",
+            "poblacion":45800
+        },
+        {
+            "nombre":"Región III",
+            "poblacion":56300
+        },
+        {
+            "nombre":"Región IV",
+            "poblacion":38300
+        }]
+    },
+    {
+        "nombre":"Perú",
+        "moneda":"Sol",
+        "regiones":[
+        {
+            "nombre":"Región I",
+            "poblacion":88300
+        },
+        {
+            "nombre":"Región II",
+            "poblacion":15800
+        },
+        {
+            "nombre":"Región III",
+            "poblacion":12300
+        },
+        {
+            "nombre":"Región IV",
+            "poblacion":3300
+        }]
+    }]
+},
+{
+    "_id":"P002",
+    "continente":"Europa",
+    "Paises":[
+    {
+        "nombre":"Alemania",
+        "moneda":"Euro",
+        "regiones":[
+        {
+            "nombre":"Región I",
+            "poblacion":22300
+        },
+        {
+            "nombre":"Región II",
+            "poblacion":23800
+        },
+        {
+            "nombre":"Región III",
+            "poblacion":25300
+        },
+        {
+            "nombre":"Región IV",
+            "poblacion":33300
+        }]
+    },
+    {
+        "nombre":"Inglaterra",
+        "moneda":"Libra",
+        "regiones":[
+        {
+            "nombre":"Región I",
+            "poblacion":23300
+        },
+        {
+            "nombre":"Región II",
+            "poblacion":43800
+        },
+        {
+            "nombre":"Región III",
+            "poblacion":53300
+        },
+        {
+            "nombre":"Región IV",
+            "poblacion":28300
+        }]
+    },
+    {
+        "nombre":"Italia",
+        "moneda":"Euro",
+        "regiones":[
+        {
+            "nombre":"Región I",
+            "poblacion":13300
+        },
+        {
+            "nombre":"Región II",
+            "poblacion":18800
+        },
+        {
+            "nombre":"Región III",
+            "poblacion":23300
+        },
+        {
+            "nombre":"Región IV",
+            "poblacion":28900
+        }]
+    },
+    {
+        "nombre":"España",
+        "moneda":"Euro",
+        "regiones":[
+        {
+            "nombre":"Región I",
+            "poblacion":3300
+        },
+        {
+            "nombre":"Región II",
+            "poblacion":8800
+        },
+        {
+            "nombre":"Región III",
+            "poblacion":5300
+        },
+        {
+            "nombre":"Región IV",
+            "poblacion":8900
+        }]
+    }]
+}
+])
